@@ -1,17 +1,18 @@
 # Churn Analysis
 
-**Churn Analizinde Makine Öğrenmesi ve Derin Öğrenme Yaklaşımları**
+## Churn Analizinde Makine Öğrenmesi ve Derin Öğrenme Yaklaşımları
 
 Churn, bir müşteri ya da kullanıcının bir ürünü ya da hizmeti kullanmayı bırakması anlamına gelirken Churn Analizi bir müşterinin veya kullanıcının bir ürünü ya da hizmeti terk etme olasılığını tahmin etmeye yönelik yapılan çalışmalardır. Genellikle CRM (Müşteri İlişkileri Yönetimi) alanında kullanılır. Bu analiz, işletmelerin proaktif bir yaklaşım benimsemelerini sağlamak amacıyla yapılır. Müşterileri kaybetme risklerinin önceden belirlenmesi ve uygun stratejiler geliştirerek müşteri sadakatinin arttırılması planlanır.
 
 
 Bu proje, müşterilerin hizmeti terk etme (churn) olasılıklarını tahmin etmek için makine öğrenmesi ve derin öğrenme tekniklerinin nasıl kullanılabileceğine dair bir inceleme sunmaktadır. Çalışmada, karar ağaçları gibi temel algoritmalardan yapay sinir ağları gibi daha ileri düzey yöntemlere kadar çeşitli algoritmaların churn tahminindeki rolü ele alınmaktadır.
 
-Makine Öğrenmesi (ML) : Veri setlerinden öğrenmeyi ve tahminler üretmeyi amaçlar. Öznitelik çıkarımı genellikle insan tarafından yapılır, küçük-orta büyüklükteki veri setleriyle çalışabilir, belirli kurallar ve modellerle işler.
+**Makine Öğrenmesi (ML) :** Veri setlerinden öğrenmeyi ve tahminler üretmeyi amaçlar. Öznitelik çıkarımı genellikle insan tarafından yapılır, küçük-orta büyüklükteki veri setleriyle çalışabilir, belirli kurallar ve modellerle işler.
 
-Derin Öğrenme (DL) : Büyük miktarda veriyi çok katmanlı yapay sinir ağlarını kullanarak analiz eder. Öznitelikleri kendisi öğrenebilir, ML algoritmalarına göre daha fazla işlem gücü gerektirir ve daha uzun sürede eğitilir.
+**Derin Öğrenme (DL) :** Büyük miktarda veriyi çok katmanlı yapay sinir ağlarını kullanarak analiz eder. Öznitelikleri kendisi öğrenebilir, ML algoritmalarına göre daha fazla işlem gücü gerektirir ve daha uzun sürede eğitilir.
 
-**Proje İçeriği**
+## Proje İçeriği
+
 **Makine Öğrenmesi Yöntemleri:** Karar ağaçları, K-NN ve SVM gibi temel algoritmaların ve BaggingClassifier, XGBoost, Random Forest gibi kollektif algoritmaların churn tahminindeki kullanımı.
 
 **Derin Öğrenme Yöntemleri:** Yapay sinir ağları (ANN) ve TabNet gibi daha gelişmiş derin öğrenme algoritmalarının churn tahmininde nasıl etkili olduğu.
@@ -22,9 +23,9 @@ Derin Öğrenme (DL) : Büyük miktarda veriyi çok katmanlı yapay sinir ağlar
 
 **Çalışma Sonuçları:** Hangi algoritmaların churn tahmininde daha iyi sonuçlar verdiği ve hangi parametrelerin model başarısını etkilediği üzerine bir analiz.
 
-**Kullanılan Algoritmalar:**
+## Kullanılan Algoritmalar:
 
-**ML ALGORİTMALARI**
+### ML ALGORİTMALARI
 
 **Temel (Base) Algoritmalar:**
 
@@ -42,13 +43,13 @@ Derin Öğrenme (DL) : Büyük miktarda veriyi çok katmanlı yapay sinir ağlar
 
 **Random Forest:** Random Forest, birden fazla karar ağacının bir arada çalıştığı bir algoritmadır. Her ağaç, rastgele seçilen veri parçaları ve özelliklerle eğitilir. Sonuçta, birden fazla ağacın tahminlerini birleştirerek daha doğru sonuçlar elde edilir. Bu da genelleme yeteneğini artırır ve aşırı öğrenme (overfitting) riskini azaltır.
 
-**DL ALGORİTMALARI**
+### DL ALGORİTMALARI
 
 **Yapay Sinir Ağı (ANN) :** Yapay Sinir Ağı, insan beynine benzer şekilde çalışan bir sistemdir. Beyindeki nöronlar gibi, yapay sinir ağlarında da “nöron” denilen birimler bulunur. Bu nöronlar birbirine bağlanır ve her biri, aldığı bilgiyi işler. Bilgiler, ağın farklı katmanlarından geçerek işlenir ve sonuç çıkar.
 
 **TabNet :** Hem sayısal hem de kategorik veriler üzerinde güçlü performans gösteren, dikkat mekanizmalarını (attention) ve ağaç tabanlı yöntemleri birleştiren bir modeldir. Her adımda dikkat mekanizmaları kullanarak sadece önemli verilere dikkat eder ve hangi bilgileri ne zaman kullanacağına karar verir. Bu sayede hem daha doğru sonuçlar sağlar hem de işlemleri daha hızlı yapar. Yani, veriyi en iyi şekilde analiz etmek için bir tür akıllı seçim yapma yöntemine dayanır.
 
-**Model Değerlendirme**
+## Model Değerlendirme
 
 Model performansı, aşağıdaki metrikler kullanılarak değerlendirilmiştir:
 
@@ -62,7 +63,7 @@ Model performansı, aşağıdaki metrikler kullanılarak değerlendirilmiştir:
 
 **ROC AUC (ROC Eğrisinin Altındaki Alan):** ROC AUC, modelinizin tüm sınıflandırma eşiklerinde (yani “hasta” ya da “hasta değil” kararını verdiği her noktada) nasıl performans gösterdiğini ölçer. Yüksek AUC, modelin doğru tahminler yapma oranının yüksek olduğunu ve pozitif ile negatif örnekleri iyi ayırt ettiğini gösterir. Bu, modelinizin “hasta” ve “hasta değil” gibi sınıfları ne kadar iyi ayırt ettiğini gösterir.
 
-**Çalışma Sonuçları**
+## Çalışma Sonuçları
 
 En iyi performans gösterenler: SVM, XGBoost ve TabNet, doğruluk ve ROC-AUC açısından öne çıkıyor, SVM en yüksek ROC-AUC’ye sahip.
 
