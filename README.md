@@ -13,9 +13,13 @@ Derin Öğrenme (DL) : Büyük miktarda veriyi çok katmanlı yapay sinir ağlar
 
 **Proje İçeriği**
 **Makine Öğrenmesi Yöntemleri:** Karar ağaçları, K-NN ve SVM gibi temel algoritmaların ve BaggingClassifier, XGBoost, Random Forest gibi kollektif algoritmaların churn tahminindeki kullanımı.
+
 **Derin Öğrenme Yöntemleri:** Yapay sinir ağları (ANN) ve TabNet gibi daha gelişmiş derin öğrenme algoritmalarının churn tahmininde nasıl etkili olduğu.
+
 **Özellik Mühendisliği:** Churn tahmininde kullanılan verilerin işlenmesi ve model başarısını artırmak için özellik mühendisliğinin önemi.
+
 **Model Değerlendirme:** Çeşitli makine öğrenmesi ve derin öğrenme modellerinin karşılaştırılması ve performans değerlendirmesi.
+
 **Çalışma Sonuçları:** Hangi algoritmaların churn tahmininde daha iyi sonuçlar verdiği ve hangi parametrelerin model başarısını etkilediği üzerine bir analiz.
 
 **Kullanılan Algoritmalar:**
