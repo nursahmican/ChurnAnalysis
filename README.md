@@ -1,5 +1,5 @@
 # ChurnAnalysis
-Subscription-Churn Analysis: Machine Learning &amp; Deep Learning Approaches
+
 Churn Analizinde Makine Öğrenmesi ve Derin Öğrenme Yaklaşımları
 
 Churn, bir müşteri ya da kullanıcının bir ürünü ya da hizmeti kullanmayı bırakması anlamına gelirken Churn Analizi bir müşterinin veya kullanıcının bir ürünü ya da hizmeti terk etme olasılığını tahmin etmeye yönelik yapılan çalışmalardır. Genellikle CRM (Müşteri İlişkileri Yönetimi) alanında kullanılır. Bu analiz, işletmelerin proaktif bir yaklaşım benimsemelerini sağlamak amacıyla yapılır. Müşterileri kaybetme risklerinin önceden belirlenmesi ve uygun stratejiler geliştirerek müşteri sadakatinin arttırılması planlanır.
