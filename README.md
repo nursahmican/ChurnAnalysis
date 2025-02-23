@@ -5,7 +5,7 @@ Churn Analizinde Makine Öğrenmesi ve Derin Öğrenme Yaklaşımları
 Churn, bir müşteri ya da kullanıcının bir ürünü ya da hizmeti kullanmayı bırakması anlamına gelirken Churn Analizi bir müşterinin veya kullanıcının bir ürünü ya da hizmeti terk etme olasılığını tahmin etmeye yönelik yapılan çalışmalardır. Genellikle CRM (Müşteri İlişkileri Yönetimi) alanında kullanılır. Bu analiz, işletmelerin proaktif bir yaklaşım benimsemelerini sağlamak amacıyla yapılır. Müşterileri kaybetme risklerinin önceden belirlenmesi ve uygun stratejiler geliştirerek müşteri sadakatinin arttırılması planlanır.
 
 
-Bu proje, müşterilerin hizmeti terk etme (churn) olasılıklarını tahmin etmek için makine öğrenmesi ve derin öğrenme tekniklerinin nasıl kullanılabileceğine dair bir inceleme sunmaktadır. Çalışmada, karar ağaçları gibi temel algoritmalardan derin sinir ağları gibi daha ileri düzey yöntemlere kadar çeşitli algoritmaların churn tahminindeki rolü ele alınmaktadır.
+Bu proje, müşterilerin hizmeti terk etme (churn) olasılıklarını tahmin etmek için makine öğrenmesi ve derin öğrenme tekniklerinin nasıl kullanılabileceğine dair bir inceleme sunmaktadır. Çalışmada, karar ağaçları gibi temel algoritmalardan yapay sinir ağları gibi daha ileri düzey yöntemlere kadar çeşitli algoritmaların churn tahminindeki rolü ele alınmaktadır.
 
 Makine Öğrenmesi (ML) : Veri setlerinden öğrenmeyi ve tahminler üretmeyi amaçlar. Öznitelik çıkarımı genellikle insan tarafından yapılır, küçük-orta büyüklükteki veri setleriyle çalışabilir, belirli kurallar ve modellerle işler.
 
